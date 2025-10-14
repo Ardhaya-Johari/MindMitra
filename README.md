@@ -58,15 +58,20 @@ MindMitra/
 │   │   │   ├── support.py
 │   │   │   └── auth.py
 │   │   ├── database.py
-│   │   ├── models.py
-│   │   └── __init__.py
+│   │   └── models.py
+|   ├──requirements.txt
 │   └── main.py
 │
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
 │   │   │   ├── DarkModeToggle.jsx
-│   │   │   └── PageWrapper.jsx
+│   │   │   ├── Navbar.jsx
+|   |   |   ├── MoodBubble.jsx
+│   │   │   ├── Chatbot.jsx
+│   │   │   ├── MoodAnalytics.jsx
+│   │   │   ├── Journal.jsx
+│   │   │   └── Support.jsx
 │   │   ├── pages/
 │   │   │   ├── HomePage.jsx
 │   │   │   ├── ChatbotPage.jsx
@@ -74,6 +79,7 @@ MindMitra/
 │   │   │   ├── JournalPage.jsx
 │   │   │   └── SupportPage.jsx
 │   │   ├── App.jsx
+│   │   ├── index.css
 │   │   └── index.jsx
 │   ├── package.json
 │   └── tailwind.config.js
@@ -112,6 +118,29 @@ Frontend runs on → `http://localhost:3000`
 ### Run Both Together (optional)
 You can also create a batch file to start both frontend and backend simultaneously.
 
+1️⃣ Clone the repo  
+
+```bash
+git clone https://github.com/your-username/MindMitra.git
+```
+
+2️⃣ Navigate to project folder  
+
+```bash
+cd MindMitra
+```
+
+3️⃣ Install dependencies  
+
+```bash
+npm install
+```
+
+4️⃣ Start development server  
+
+```bash
+npm start
+```
 ---
 
 ## 🤝 Contribution Guidelines
